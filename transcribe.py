@@ -2,7 +2,7 @@ import gradio as gr
 import whisper
 
 model = whisper.load_model("base")
-file_name = "s.m4a"  
+file_name = "SampleAudio.m4a"  
 
 def transcribe_file():
     try:
